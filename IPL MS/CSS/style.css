@@ -1,10 +1,18 @@
 /* AUTHOR: SUBHOMOY GHOSH*/
+
+
+/*---------------GLOBAL ALLOCATION---------------*/
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
+
+
+/*---------------BASIC HOMEPAGE---------------*/
 
 
 html {
@@ -54,6 +62,7 @@ h1 {
     word-spacing: 5px;
 }
 
+/*---------------BUTTONS---------------*/
 
 .btn:link,
 .btn:visited {
@@ -100,6 +109,9 @@ h1 {
 }
 
 
+/*---------------NAVIGATON BAR---------------*/
+
+
 .main-nav {
     float:right;
     list-style: none;
@@ -109,13 +121,13 @@ h1 {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    padding: 7px 0;
+    padding: 10px 0;
     color:floralwhite;
     text-decoration: none;
     text-transform: uppercase;
@@ -128,5 +140,70 @@ h1 {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
 
+
+/*---------------MORE ABOUT US---------------*/
+
+
+section {
+     padding: 50px 0;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 175%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.long-copy {
+    line-height: 140%;
+    width: 70%;
+    margin-left: 15%;  
+}
+
+
+.box {
+    padding: 2%;
+}
+
+
+.box p {
+    font-size: 90%;
+    line-height: 145%; 
+}
+
+
+h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 125%;
+    margin-bottom: 17px;
+    
+}
+
+
+.icon-big {
+    font-size: 375%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
 }
