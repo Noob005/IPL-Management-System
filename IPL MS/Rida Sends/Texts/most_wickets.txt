@@ -1,0 +1,11 @@
+name, inns, witks, Econ
+Lasith Malinga, 122, 170, 7.14
+Amit Mishra, 147, 157, 7.35
+Harbhajan Singh, 157, 150, 7.05
+Piyush Chawla, 156, 150, 7.82
+Dwayne Bravo, 131, 147, 8.39
+Bhuvneshwar Kumar, 117, 133, 7.25
+Ravichandran Ashwin, 136, 125, 6.79
+Sunil Narine, 109, 122, 6.67
+Umesh Yadav, 118, 119, 8.45
+Ravindra Jadeja, 142, 108, 7.57

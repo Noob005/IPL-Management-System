@@ -1,0 +1,11 @@
+name, match, runs, highest, avg
+Virat Kohli, 177, 5412, 113, 37.84
+Suresh Raina, 193, 5368, 100, 33.34
+Rohit Sharma, 188, 4898, 109, 31.60
+David Warner, 126, 4706, 126, 43.17
+Shikhar Dhawan, 159, 4579, 97, 33.42
+Chris Gayle, 125, 4484, 175, 41.13
+MS Dhoni, 190, 4432, 84, 42.20
+Robin Uthappa, 177, 4411, 87, 28.83
+AB de Villiers, 154, 4395, 133, 39.95
+Gautam Gambhir, 154, 4217, 93, 31.23

@@ -1,0 +1,9 @@
+Team, pld, won, lost, tied, nrr, pts
+Rajasthan Royals, 14, 11, 3, 0,	+0.632,	22
+Kings XI Punjab, 14, 10, 4, 0, +0.509, 20
+Chennai Super Kings, 14, 8, 6, 0, -0.192, 16
+Delhi Capitals, 14, 7, 6, 0, +0.342, 15
+Mumbai Indians, 14, 7, 7, 0, +0.570, 14
+Kolkata Knight Riders, 14, 6, 7, 0, -0.147, 13
+Royal Challengers Bangalore, 14, 4, 10, 0, -1.160, 8
+Deccan Chargers, 14, 2, 12, 0, -0.467, 4

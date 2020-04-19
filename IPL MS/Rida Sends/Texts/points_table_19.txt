@@ -1,0 +1,9 @@
+Team, pld, won, lost, tied, nrr, pts
+Mumbai Indians, 14, 9, 5, 0, +0.421, 18
+Chennai Super Kings, 14, 9, 5, 0, +0.131, 18
+Delhi Capitals, 14, 9, 5, 0, +0.044, 18
+Sunrisers Hyderabad, 14, 6, 8, 0, +0.577, 12
+Kolkata Knight Riders, 14, 6, 8, 0, +0.028, 12
+Kings XI Punjab, 14, 6, 8, 0, -0.251, 12
+Rajasthan Royals, 14, 5, 8, 0, -0.449, 11
+Royal Challengers Bangalore, 14, 5, 8, 0, -0.607, 11
