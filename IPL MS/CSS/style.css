@@ -1,10 +1,10 @@
-/* AUTHOR: SUBHOMOY GHOSH*/
+                                                        /* AUTHOR: SUBHOMOY GHOSH*/
 
 
-/*---------------GLOBAL ALLOCATION---------------*/
-
+/*---------------------------------------------------------------GLOBAL ALLOCATION-----------------------------------------------------------------------*/
 
 * {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,10 +12,12 @@
 }
 
 
-/*---------------BASIC HOMEPAGE---------------*/
 
+
+/*-----------------------------------------------------------------BASIC HOMEPAGE-------------------------------------------------------------------------*/
 
 html {
+    
     background-color:antiquewhite;
     color: #626262;
     font-family: 'Lato', sans-serif;
@@ -23,12 +25,11 @@ html {
     font-size: 20px; 
     text-rendering: optimizeLegibility;
    
-   
-      
 }
 
 
 .row {
+    
     max-width: 1140px;
     margin: 0 auto;
     
@@ -36,10 +37,12 @@ html {
 
 
 header {
+    
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Graphics/Trophy.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;  
+    height: 100vh; 
+    
 }
 
 
@@ -54,6 +57,7 @@ header {
 
 
 h1 {
+    
     margin-top: 0; 
     margin-bottom: 20px;
     color:floralwhite;
@@ -62,74 +66,95 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 5px;
+    
 }
 
-/*---------------BUTTONS---------------*/
 
+
+
+/*-------------------------------------------------------------------BUTTONS--------------------------------------------------------------------------*/
 
 .btn:link,
 .btn:visited {
+    
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
     border-radius: 150px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
 }
 
 
 .btn-full:link,
 .btn-full:visited {
+    
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: floralwhite;
     margin-right: 15px;
+    
 }
 
 
 .btn-ghost:link,
 .btn-ghost:visited {
+    
     border: 1px solid #e67e22;
     color: #e67e22;
+    
 }
 
 
 .btn:hover,
 .btn:active {
+    
     background-color: #bf6516
+        
 }
 
 .btn-full:hover,
 .btn-full:active {
+    
     border: 1px solid #e67e22;
+    
 }
 
 
 .btn-ghost:hover,
 .btn-ghost:active {
+    
     border: 1px solid #e67e22;
     color:floralwhite; 
+    
 }
 
 
-/*---------------MAIN NAVIGATON BAR---------------*/
 
+
+/*-----------------------------------------------------------------MAIN NAVIGATON BAR---------------------------------------------------------------------*/
 
 .main-nav {
+    
     float:right;
     list-style: none;
     margin-top: 50px;
+    
 }
 
 
 .main-nav li {
+    
     display: inline-block;
     margin-left: 30px;
+    
 }
 
 
 .main-nav li a:link,
 .main-nav li a:visited {
+    
     padding: 10px 0;
     color:floralwhite;
     text-decoration: none;
@@ -137,19 +162,24 @@ h1 {
     font-size: 90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s;
+    
 }
 
 
 .main-nav li a:hover,
 .main-nav li a:active {
+    
     border-bottom: 2px solid #e67e22;
+    
 }
 
 
-/*---------------STICKY NAVIGATON BAR---------------*/
 
+
+/*--------------------------------------------------------------------STICKY NAVIGATON BAR--------------------------------------------------------------*/
 
 .sticky {
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -157,10 +187,12 @@ h1 {
     background-color: rgba(255, 255, 255, 0.98); 
     box-shadow: 0 2px 2px #efefef;
     z-index: 999;
+    
 }
 
 
 .sticky .main-nav {
+    
     margin-top: 17px;
 
 }
@@ -168,21 +200,26 @@ h1 {
 
 
 .sticky .main-nav li a:visited {
+    
     padding: 15px 0;
     color: #555;
     
  }
 
 
-/*---------------MORE ABOUT US---------------*/
 
+
+/*------------------------------------------------------------------------MORE ABOUT US------------------------------------------------------------------*/
 
 section {
+    
      padding: 50px 0;
+    
 }
 
 
 h2 {
+    
     margin-bottom: 20px;
     font-size: 175%;
     font-weight: 300;
@@ -190,10 +227,12 @@ h2 {
     letter-spacing: 1px;
     word-spacing: 3px;
     text-align: center;
+    
 }
 
 
 h2:after {
+    
     display: block;
     height: 2px;
     background-color: #e67e22;
@@ -201,28 +240,36 @@ h2:after {
     width: 500px;
     margin: 0 auto;
     margin-top: 20px;
+    
 }
 
 
 .long-copy {
+    
     line-height: 140%;
     width: 70%;
-    margin-left: 15%;  
+    margin-left: 15%; 
+    
 }
 
 
 .box {
+    
     padding: 2%;
+    
 }
 
 
 .box p {
+    
     font-size: 90%;
     line-height: 145%; 
+    
 }
 
 
 h3 {
+    
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -233,9 +280,130 @@ h3 {
 
 
 .icon-big {
+    
     font-size: 375%;
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
+        
 }
+
+
+
+
+/*------------------------------------------------------------------------BUY TICKETS------------------------------------------------------------------*/
+
+.section-ticket {
+    
+    background-color:bisque;
+    
+}
+
+
+.ticket-box {
+    background-color:blanchedalmond;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #dddbd9;
+    
+}
+
+
+.ticket-box div {
+    
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    
+}
+
+
+.ticket-box div:first-child {
+    
+    background-color: #f2dcc9;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+
+.ticket-box div:last-child {
+    
+    text-align: center;
+    border: 0;
+}
+
+
+.ticket-price {
+    
+    font-size: 235%;
+    margin-bottom: 10px;
+    color: #e67e22;
+      
+}
+
+
+.ticket-price span {
+    
+    font-size: 50%;
+    
+}
+
+
+.ticket-location {
+    
+    font-size: 100%;
+}
+
+
+.ticket-box ul {
+    
+    list-style: none;
+
+}
+
+
+.ticket-box ul li {
+    
+    padding: 5px 0;
+    
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
