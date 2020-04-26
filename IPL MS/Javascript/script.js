@@ -61,7 +61,20 @@ $(document).ready(function(){
   }, {
     offset: '60px'
     });
-        
+
+    
+    
+    
+/*------------------------------------------------------------------STICKY (VENUES)------------------------------------------------------------------------*/    
+    $('.js--section-venue').waypoint(function(direction) {
+        if(direction == "down"){
+            $('nav').addClass('sticky');
+        }else {
+            $('nav').removeClass('sticky');
+        }
+  }, {
+    offset: '60px'
+    });    
     
     
         
