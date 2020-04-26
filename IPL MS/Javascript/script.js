@@ -50,6 +50,22 @@ $(document).ready(function(){
     
     
     
+    
+/*------------------------------------------------------------------STICKY (TEAM)------------------------------------------------------------------------*/    
+    $('.js--section-logo').waypoint(function(direction) {
+        if(direction == "down"){
+            $('nav').addClass('sticky');
+        }else {
+            $('nav').removeClass('sticky');
+        }
+  }, {
+    offset: '60px'
+    });
+        
+    
+    
+        
+    
 /*---------------------------------------------------------------SCROLL BUTTONS-------------------------------------------------------------------------*/
     
     $('.js--scroll-to-more').click(function () {

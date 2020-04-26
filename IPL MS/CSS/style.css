@@ -888,13 +888,214 @@ h3 {
 
 
 
+/*----------------------------------------------------------------CSS FOR TEAM (START)-----------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------------------LOGO SECTION----------------------------------------------------------------------*/
+
+.section-logo {
+    
+    padding: 0;
+    
+}
+
+
+
+
+.team {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Graphics/Team.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    
+}
+
+
+
+
+.logo-showcase {
+    
+    list-style: none;
+    width: 100%;
+    
+}
+
+
+
+
+.logo-showcase li {
+    
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+
+
+
+
+.logo-photo {
+    
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    
+}
+
+
+
+
+.logo-photo img {
+    
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    
+}
+
+
+
+
+.logo-photo img:hover {
+    
+    opacity: 1;
+    transform: scale(1.03);
+
+    
+}
+
+
+
+
+/*-----------------------------------------------------------CSS FOR TABLE(ALL) (START)---------------------------------------------------------------------*/
+
+.tg  {
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+    
+}
+
+
+
+
+.tg td, .tg th {
+    
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 13px 20px;
+    word-break: normal;
+
+}
 
 
 
 
 
+.tg .tg-0lax {
+    
+    text-align: left;
+    vertical-align: top
+        
+}
 
 
+
+/*----------------------------------------------------------------CSS FOR TABLE(CSK)---------------------------------------------------------------------*/
+
+.csk {
+    
+    background-color: #ffff3c;
+    
+}
+
+
+
+/*----------------------------------------------------------------CSS FOR TABLE(DC)---------------------------------------------------------------------*/
+
+.dc {
+    
+    background-color: #00008b;
+    
+}
+
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(KXIP)-------------------------------------------------------------------*/
+
+.kxip {
+    
+    background-color: #dcdddf;
+    
+}
+
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(KKR)-------------------------------------------------------------------*/
+
+.kkr {
+    
+    background-color: #2e0584;
+    
+}
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(MI)-------------------------------------------------------------------*/
+
+.mi {
+    
+    background-color: #0c3665;
+    
+
+}
+
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(RR)-------------------------------------------------------------------*/
+
+.rr {
+    
+    background-color: #cba92b;
+    
+
+}
+
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(RCB)-------------------------------------------------------------------*/
+
+.rcb {
+    
+    background-color: #2b2a29;
+    
+}
+
+
+
+
+/*--------------------------------------------------------------CSS FOR TABLE(SRH)-------------------------------------------------------------------*/
+
+.srh {
+    
+    background-color: #ff822a;
+    
+}
 
 
 
