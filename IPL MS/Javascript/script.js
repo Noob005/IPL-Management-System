@@ -75,10 +75,24 @@ $(document).ready(function(){
   }, {
     offset: '60px'
     });    
+
+    
+    
+    
+/*------------------------------------------------------------------STICKY (STATS)------------------------------------------------------------------------*/    
+    $('.js--section-point-08').waypoint(function(direction) {
+        if(direction == "down"){
+            $('nav').addClass('sticky');
+        }else {
+            $('nav').removeClass('sticky');
+        }
+  }, {
+    offset: '60px'
+    });    
     
     
         
-    
+        
 /*---------------------------------------------------------------SCROLL BUTTONS-------------------------------------------------------------------------*/
     
     $('.js--scroll-to-more').click(function () {
