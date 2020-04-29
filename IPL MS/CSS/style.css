@@ -381,6 +381,111 @@ h3 {
 
 
 
+/*-----------------------------------------------------------------FOOTER---------------------------------------------------------------------------*/
+
+footer {
+    
+    background-color: #000;
+    padding: 30px;
+    
+}
+
+
+
+.social-links-rida {
+    
+    list-style: none;
+    float: left;
+    
+}
+
+
+
+.social-links-subho {
+    
+    list-style: none;
+    float: right;
+    
+}
+
+
+
+.social-links-rida li,
+.social-links-subho li {
+    
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+
+
+.social-links-rida li:last-child,
+.social-links-subho li:last-child {
+    
+    margin-right: 0;
+    
+}
+
+
+
+.social-links-rida li a:link,
+.social-links-rida li a:visited,
+.social-links-subho li a:link,
+.social-links-subho li a:visited {
+    
+    text-decoration: none;
+    border: 0;
+    color: #c1c1c1;
+    transition: color 0.2s;
+    font-size: 180%;
+    
+}
+
+
+
+.ion-social-github:hover {
+    
+    color: #211F1F;
+    
+}
+
+
+
+.ion-social-facebook:hover {
+    
+    color: #3b5998;
+    
+}
+
+
+
+.ion-social-instagram:hover {
+    
+    color:  #8a3ab9;
+    
+}
+
+
+
+.ion-social-twitter:hover {
+    
+    color: #00aced;
+    
+}
+
+
+
+footer p {
+    
+    color: #c1c1c1;
+    text-align: center;
+    font-size: 90%;
+        
+}
+
+
+
 
 /*----------------------------------------------------------------CSS FOR INDEX (END)----------------------------------------------------------------------*/
 
